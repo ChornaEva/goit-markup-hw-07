@@ -839,6 +839,9 @@ img {
   outline: none;
 }
 
+.icon-submit {
+  margin-left: 10px;
+}
 /* POTFOLIO********************************************************************* */
 .portfolio {
   border-bottom: 1px solid #ececec;
