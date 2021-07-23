@@ -238,7 +238,7 @@ img {
 }
 /* тело страницы ***************************************/
 /* банер **************************/
-.section-baner {
+.banner {
   max-width: 1600px;
 
   background-color: #2f303a;
@@ -255,7 +255,7 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-.title-baner {
+.banner__title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -269,7 +269,7 @@ img {
   margin-right: auto;
   width: 696px;
 }
-.baner-button {
+.banner__button {
   font-family: inherit;
   font-weight: bold;
   font-size: 16px;
