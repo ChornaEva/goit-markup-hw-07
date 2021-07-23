@@ -550,10 +550,10 @@ img {
 }
 
 /* чем мы занимаемся************************************ */
-.section-works {
+.works {
   padding-top: 0px;
 }
-.works-title {
+.works__title {
   text-align: center;
   margin-bottom: 50px;
 }
@@ -563,10 +563,10 @@ img {
   justify-content: space-between;
 }
 
-.works-item {
+.works-list__item {
   position: relative;
 }
-.works-description {
+.works-list__description {
   position: absolute;
   width: 100%;
   bottom: 0px;
