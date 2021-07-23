@@ -74,15 +74,15 @@ img {
   display: flex;
   align-items: center;
 }
-.nav-list {
+.nav__list {
   display: flex;
 }
-.nav-link.current {
+.nav__link--current {
   color: var(--accent-color);
 }
 
-.nav-item:not(:first-child),
-.contacts-item:not(:first-child) {
+.nav__item:not(:first-child),
+.contacts-list__item:not(:first-child) {
   margin-left: 50px;
 }
 
@@ -90,7 +90,7 @@ img {
   display: flex;
 }
 
-.contacts-link {
+.contacts-list__link {
   display: flex;
   align-items: center;
 }
@@ -143,7 +143,7 @@ img {
 /* лого ***************************************************/
 .logo,
 .logo-white,
-.logo-black {
+.logo--black {
   font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 26px;
@@ -160,17 +160,17 @@ img {
 .logo-white {
   color: #ffffff;
 }
-.logo-black {
+.logo--black {
   color: #000000;
 }
 
 /* навигация  и контакты INDEX  и PORTFOLIO**************************************/
-.nav-list {
+.nav__list {
   margin-left: 93px;
   justify-content: space-between;
 }
 
-.nav-link {
+.nav__link {
   display: block;
   font-weight: 500;
   font-size: 14px;
@@ -186,8 +186,8 @@ img {
   padding-bottom: 32px;
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.nav__link:hover,
+.nav__link:focus {
   color: var(--accent-color);
 }
 
@@ -199,7 +199,7 @@ img {
 
   margin-left: auto;
 }
-.contacts-link,
+.contacts-list__link,
 .type-link {
   color: #757575;
   text-decoration: none;
@@ -208,22 +208,22 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts-list .contacts-link:hover,
-.contacts-list .contacts-link:focus {
+.contacts-list .contacts-list__link:hover,
+.contacts-list .contacts-list__link:focus {
   color: var(--accent-color);
 }
 
-.contacts-link:hover .icon-envelope,
-.contacts-link:focus .icon-envelope,
-.contacts-link:hover .icon-phone,
-.contacts-link:focus .icon-phone {
+.contacts-list__link:hover .icon-envelope,
+.contacts-list__link:focus .icon-envelope,
+.contacts-list__link:hover .icon-phone,
+.contacts-list__link:focus .icon-phone {
   fill: var(--accent-color);
 }
 
-.current {
+.nav__link--current {
   position: relative;
 }
-.current::after {
+.nav__link--current::after {
   content: "";
   display: block;
   position: absolute;
