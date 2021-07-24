@@ -1,0 +1,41 @@
+.advantages__title,
+.work-title,
+.team__title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
+.advantages__title,
+.team__title {
+  color: var(--title-text-color);
+}
+
+.advantages__title {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.advantages__list {
+  display: flex;
+}
+
+.advantages__item:not(:first-child) {
+  margin-left: 30px;
+}
+.advantages__item {
+  width: 270px;
+}
+
+.advantages__icon {
+  display: flex;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
