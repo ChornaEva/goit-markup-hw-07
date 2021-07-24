@@ -1,49 +1,48 @@
-.modal-form__wrapper {
-  display: block;
-}
+.modal-form {
+  &__wrapper {
+    display: block;
+  }
+  &__head {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.15;
+    color: #212121;
 
-.modal-form__head {
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 1.15;
-  color: #212121;
+    margin-bottom: 12px;
+  }
+  &__type {
+    display: block;
 
-  margin-bottom: 12px;
-}
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    color: #757575;
+  }
+  &__box {
+    position: relative;
+    display: block;
+    margin-bottom: 10px;
+  }
+  &__input {
+    position: relative;
+    display: block;
+    height: 40px;
+    width: 100%;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
 
-.modal-form__type {
-  display: block;
+    padding-left: 42px;
+    margin-top: 4px;
+    outline: none;
 
-  font-size: 12px;
-  line-height: 1.16;
-  letter-spacing: 0.01em;
-  color: #757575;
-}
-
-.modal-form__box {
-  position: relative;
-  display: block;
-  margin-bottom: 10px;
-}
-.modal-form__input:focus {
-  border-color: var(--accent-color);
+    &:focus {
+      border-color: var(--accent-color);
+    }
+  }
 }
 
 .modal-form__input:focus + .modal-form__icon {
   fill: var(--accent-color);
-}
-
-.modal-form__input {
-  position: relative;
-  display: block;
-  height: 40px;
-  width: 100%;
-  border: 1px solid rgba(33, 33, 33, 0.2);
-  border-radius: 4px;
-
-  padding-left: 42px;
-  margin-top: 4px;
-  outline: none;
 }
 
 .modal-form__icon {
