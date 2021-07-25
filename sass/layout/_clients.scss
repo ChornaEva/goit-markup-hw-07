@@ -29,18 +29,16 @@
       transition-property: border-color;
       transition-duration: 250ms;
       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+      &:hover,
+      &:focus {
+        border-color: var(--accent-color);
+        .icon-logo {
+          fill: var(--accent-color);
+        }
+      }
     }
   }
-}
-
-.clients-list__link:hover .icon-logo,
-.clients-list__link:focus .icon-logo {
-  fill: var(--accent-color);
-}
-
-.clients-list__link:hover,
-.clients-list__link:focus {
-  border-color: var(--accent-color);
 }
 
 .icon-logo {
